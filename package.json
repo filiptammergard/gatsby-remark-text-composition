@@ -1,0 +1,22 @@
+{
+  "name": "gatsby-remark-text-composition",
+  "version": "1.0.0",
+  "description": "Adds text composition fields to all remark nodes",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-remark",
+    "remark",
+    "text",
+    "composition",
+    "reading time"
+  ],
+  "author": "Filip Tammergård <filip@tammergard.se> (https://tammergard.se)",
+  "license": "MIT",
+  "dependencies": {
+    "text-analyzer": "^1.5.0"
+  },
+  "peerDependencies": {
+    "gatsby": ">=2.0.0"
+  }
+}

@@ -18,5 +18,12 @@
   },
   "peerDependencies": {
     "gatsby": ">=2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/filiptammergard/gatsby-remark-text-composition.git"
+  },
+  "bugs": {
+    "url": "https://github.com/filiptammergard/gatsby-remark-text-composition/issues"
   }
 }

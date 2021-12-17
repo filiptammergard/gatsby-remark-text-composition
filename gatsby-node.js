@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
 const { getReadingTime } = require("text-analyzer")
 
 exports.onCreateNode = ({ node, actions }) => {

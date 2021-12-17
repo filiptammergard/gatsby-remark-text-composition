@@ -35,9 +35,6 @@ jobs:
       - name: Review
         run: yarn review
 
-      - name: Build
-        run: yarn build
-
       - name: Run semantic-release
         run: yarn semantic-release
         env:

@@ -3757,12 +3757,10 @@ tempy@^1.0.0:
     type-fest "^0.16.0"
     unique-string "^2.0.0"
 
-text-analyzer@1.5.1, text-analyzer@^1.4.0:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/text-analyzer/-/text-analyzer-1.5.1.tgz#f40dff0ab92994bf3a70ef76b21a0f83e914c653"
-  integrity sha512-vCeCkhujxjDJQT3Wx7jePi4IL0/EBgjz4OvRENKq56Q8QUpeQw23ovf+pOeZCLbPpEs0H16LyBY+0SdshYKqiw==
-  dependencies:
-    text-analyzer "^1.4.0"
+text-analyzer@1.6.0:
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/text-analyzer/-/text-analyzer-1.6.0.tgz#505312f4b4a6e4f37b30e9af4c7e98fbeddcedd1"
+  integrity sha512-x12T2jTqiVyRoaQb5l45cfkiQjCnh9V8TkiB8VANRrepOfSE/U/8l4O5wB8PfM+uTDv6ZLJfuMjJ4D5JJSASpQ==
 
 text-extensions@^1.0.0:
   version "1.9.0"

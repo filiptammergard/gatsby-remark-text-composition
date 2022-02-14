@@ -8,7 +8,7 @@
     "review": "yarn install --frozen-lockfile && yarn lint && yarn prettier"
   },
   "dependencies": {
-    "text-analyzer": "1.5.1"
+    "text-analyzer": "1.6.0"
   },
   "devDependencies": {
     "@tammergard/eslint-config-base": "2.2.0",

@@ -3,10 +3,10 @@
   "version": "0.0.0-development",
   "description": "Adds text composition fields to all remark nodes",
   "scripts": {
-    "git-verify-nodiff": "./scripts/git-verify-nodiff.bash",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
     "lint": "eslint .",
-    "prettier": "prettier --write .",
-    "review": "yarn install --frozen-lockfile && yarn prettier && yarn lint && yarn git-verify-nodiff"
+    "review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
   },
   "dependencies": {
     "text-analyzer": "1.6.0"

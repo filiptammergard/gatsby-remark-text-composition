@@ -17,7 +17,7 @@
     "@tammergard/semantic-release-config-npm": "1.1.0",
     "eslint": "8.22.0",
     "prettier": "2.7.1",
-    "semantic-release": "19.0.3"
+    "semantic-release": "19.0.4"
   },
   "peerDependencies": {
     "gatsby": ">=2.0.0"

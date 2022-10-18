@@ -62,19 +62,19 @@ the text composition data like this:
 
 ```js
 const result = await graphql(`
-  query {
-    allMarkdownRemark {
-      nodes {
-        fields {
-          readingTime {
-            milliseconds
-            minutes
-            words
-          }
-        }
-      }
-    }
-  }
+	query {
+		allMarkdownRemark {
+			nodes {
+				fields {
+					readingTime {
+						milliseconds
+						minutes
+						words
+					}
+				}
+			}
+		}
+	}
 `)
 ```
 
@@ -85,19 +85,19 @@ composition data like this:
 
 ```js
 export const query = graphql`
-  query {
-    allMdx {
-      nodes {
-        fields {
-          readingTime {
-            milliseconds
-            minutes
-            words
-          }
-        }
-      }
-    }
-  }
+	query {
+		allMdx {
+			nodes {
+				fields {
+					readingTime {
+						milliseconds
+						minutes
+						words
+					}
+				}
+			}
+		}
+	}
 `
 ```
 

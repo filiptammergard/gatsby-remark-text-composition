@@ -1,43 +1,43 @@
 {
-  "name": "gatsby-remark-text-composition",
-  "version": "0.0.0-development",
-  "description": "Adds text composition fields to all remark nodes",
-  "scripts": {
-    "format": "prettier --write .",
-    "format-check": "prettier --check .",
-    "lint": "eslint .",
-    "review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
-  },
-  "dependencies": {
-    "text-analyzer": "1.6.0"
-  },
-  "devDependencies": {
-    "@tammergard/eslint-config-base": "3.0.0",
-    "@tammergard/prettier-config": "1.5.0",
-    "@tammergard/semantic-release-config-npm": "1.1.0",
-    "eslint": "8.25.0",
-    "prettier": "2.7.1",
-    "semantic-release": "19.0.5"
-  },
-  "peerDependencies": {
-    "gatsby": ">=2.0.0"
-  },
-  "keywords": [
-    "gatsby",
-    "gatsby-plugin",
-    "gatsby-remark",
-    "remark",
-    "text",
-    "composition",
-    "reading time"
-  ],
-  "author": "Filip Tammergård <filip@tammergard.se> (https://tammergard.se)",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/filiptammergard/gatsby-remark-text-composition.git"
-  },
-  "bugs": {
-    "url": "https://github.com/filiptammergard/gatsby-remark-text-composition/issues"
-  }
+	"name": "gatsby-remark-text-composition",
+	"version": "0.0.0-development",
+	"description": "Adds text composition fields to all remark nodes",
+	"scripts": {
+		"format": "prettier --write .",
+		"format-check": "prettier --check .",
+		"lint": "eslint .",
+		"review": "yarn install --frozen-lockfile && yarn format-check && yarn lint"
+	},
+	"dependencies": {
+		"text-analyzer": "1.6.0"
+	},
+	"devDependencies": {
+		"@tammergard/eslint-config-base": "3.0.0",
+		"@tammergard/prettier-config": "2.0.0",
+		"@tammergard/semantic-release-config-npm": "1.1.0",
+		"eslint": "8.25.0",
+		"prettier": "2.7.1",
+		"semantic-release": "19.0.5"
+	},
+	"peerDependencies": {
+		"gatsby": ">=2.0.0"
+	},
+	"keywords": [
+		"gatsby",
+		"gatsby-plugin",
+		"gatsby-remark",
+		"remark",
+		"text",
+		"composition",
+		"reading time"
+	],
+	"author": "Filip Tammergård <filip@tammergard.se> (https://tammergard.se)",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/filiptammergard/gatsby-remark-text-composition.git"
+	},
+	"bugs": {
+		"url": "https://github.com/filiptammergard/gatsby-remark-text-composition/issues"
+	}
 }
